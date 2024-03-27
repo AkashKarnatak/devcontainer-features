@@ -1,0 +1,17 @@
+{
+  "name": "dotfiles",
+  "id": "dotfiles",
+  "version": "1.0.0",
+  "description": "Dotfiles",
+  "options": {
+    "includeBashrc": {
+      "default": "yes",
+      "description": "Whether to copy bashrc",
+      "proposals": [
+        "yes",
+        "no"
+      ],
+      "type": "string"
+    }
+  }
+}
