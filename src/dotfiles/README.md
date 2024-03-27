@@ -7,7 +7,7 @@ Dotfiles
 
 ```json
 "features": {
-    "ghcr.io/AkashKarnatak/dotfiles-dev-container-feature/dotfiles:1": {}
+    "ghcr.io/AkashKarnatak/devcontainer-features/dotfiles:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Dotfiles
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/AkashKarnatak/dotfiles-dev-container-feature/blob/main/src/dotfiles/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/AkashKarnatak/devcontainer-features/blob/main/src/dotfiles/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
