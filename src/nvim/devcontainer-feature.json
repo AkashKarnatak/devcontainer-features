@@ -4,7 +4,15 @@
   "version": "1.0.0",
   "description": "Neovim nightly with local config",
   "mounts": [
-    "source=${localEnv:HOME}/.config/nvim,target=/home/${localEnv:USER}/.config/nvim,type=bind",
-    "source=${localEnv:HOME}/.local/share/nvim,target=/home/${localEnv:USER}/.local/share/nvim,type=bind"
+    {
+      "source": "${localEnv:HOME}/.config/nvim",
+      "target": "/home/${localEnv:USER}/.config/nvim",
+      "type": "bind"
+    },
+    {
+      "source": "${localEnv:HOME}/.local/share/nvim",
+      "target": "/home/${localEnv:USER}/.local/share/nvim",
+      "type": "bind"
+    }
   ]
 }
