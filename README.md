@@ -10,7 +10,7 @@ Above features can be installed by adding the following lines in the `features` 
 ```
 ...
   "features": {
-    "ghcr.io/AkashKarnatak/devcontainer-features/dotfiles": {}
+    "ghcr.io/AkashKarnatak/devcontainer-features/dotfiles": {},
     "ghcr.io/AkashKarnatak/devcontainer-features/nvim": {}
   },
 ...
