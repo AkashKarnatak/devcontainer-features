@@ -1,10 +1,16 @@
-# dotfiles-dev-container-feature
+# My Dev Container features
 
-This feature can be installed by adding the following lines to your `./.devcontainer/devcontainer.json`.
+This repository contains the following dev container features.
+
+* dotfiles (my dotfiles)
+* nvim (nightly neovim installer)
+
+Above features can be installed by adding the following lines in the `features` block of your `./.devcontainer/devcontainer.json`.
 
 ```
 ...
   "features": {
-    "ghcr.io/AkashKarnatak/dotfiles-dev-container-feature/dotfiles": {}
+    "ghcr.io/AkashKarnatak/devcontainer-features/dotfiles": {}
+    "ghcr.io/AkashKarnatak/devcontainer-features/nvim": {}
   },
 ...
