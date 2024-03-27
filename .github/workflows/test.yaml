@@ -13,8 +13,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - dotfiles
+          - nvim
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +34,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - dotfiles
+          - nvim
     steps:
       - uses: actions/checkout@v3
 
